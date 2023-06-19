@@ -1,0 +1,87 @@
+:root{
+    font-size: 11px;
+}
+header{
+    flex-wrap: wrap;
+}
+header .logo{
+    flex-basis: 60%;
+}
+header .logo a img{
+    width: 100%;
+    height: inherit;
+}
+header nav{
+    flex-basis: 35%;
+}
+header nav .fa-bars{
+    display: block;
+    font-size: 300%;
+}
+header nav .ul-cont{
+    position: absolute;
+    top: 20vh;
+    right: 0;
+    width: 100%;
+    height: 80vh;
+    background-color: #00000070;
+    display: none;
+}
+header nav .ul-cont .fa-circle-xmark{
+    display: block;
+    font-size: 300%;
+    position: absolute;
+    right: 2vw;
+    top: 5vh;
+    color: #f00;
+}
+header nav ul{
+    flex-direction: column;
+}
+header nav ul li a{
+    font-size: 300%;
+    color: var(--mainBg);
+}
+main.pc{
+    display: none;
+}
+main.mob{
+    display: block;
+}
+main.slider .swiper-slide{
+    flex-direction: column;
+}
+main.slider .swiper-slide .content,
+main.slider .swiper-slide .image{
+    width: 100%;
+}
+.swiper-slide .content p{
+    font-size: 170%;
+}
+.serv .serv-cont{
+    flex-direction: column;
+    height: max-content;
+}
+.serv .serv-cont .card{
+    width: 100%;
+    height: 50vh;
+}
+.serv .serv-cont .card h3{
+    font-size: 260%;
+} 
+.serv .serv-cont .card h4{
+    font-size: 220%;
+} 
+.serv .serv-cont .card li{
+    font-size: 170%;
+}
+.serv .serv-cont .card:nth-child(2){
+    margin: 3vh 0;
+}
+.freelance p{
+    font-size: 240%;
+    text-align: center;
+}
+.freelance ul li a{
+    font-size: 215%;
+}
