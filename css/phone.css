@@ -8,8 +8,8 @@ header .logo{
     flex-basis: 60%;
 }
 header .logo a img{
-    width: 100%;
-    height: inherit;
+    width: 100px;
+    height: 15vh;
 }
 header nav{
     flex-basis: 35%;
